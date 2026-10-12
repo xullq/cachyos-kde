@@ -79,6 +79,9 @@ Optimoitu erityisesti:
 - [CachyOS Gaming Guide](https://wiki.cachyos.org/gaming/) – Optimaaliset asetukset Steamille, Protonille ja GameModelle.
 - [Arch Wiki: KDE](https://wiki.archlinux.org/title/KDE) – Yksityiskohtainen opas KDE Plasman asetuksiin, palveluihin ja virheenkorjaukseen.
 
+### 🎧 Ääni & Striimaus
+- [PipeWire Split Audio -opas](docs/split_audio_guide.md) – Ohje ruudunjakoon ilman Discord-puhelun kaikua virtuaalisen `Game & Stream Audio` -kanavan avulla.
+
 ### ⌨️ Pikanäppäimet
 - [Niri-pikanäppäinten vertailutaulukko](docs/shortcuts_reference.md) – Nykyiset läppärisi pikanäppäimet muistiinpanona ja niiden vastineet KDE Plasmassa / Poloniumissa.
 
@@ -171,6 +174,6 @@ Optimoitu erityisesti:
 * **Spotify (Myöhemmin päätettävä):**
   - `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen raskaan Electron-sovelluksen sijaan.
 * **Discord (Valittu: `vesktop-bin`):**
-  - **Mukana asennuksessa:** `vesktop-bin` – Natiivi PipeWire-ruudunjako sovelluskohtaisella äänieristyksellä ja sisäänrakennetulla Vencordilla.
+  - **Mukana asennuksessa:** `vesktop-bin` – Natiivi PipeWire-ruudunjako sovelluskohtaisella äänieristyksellä ja sisäänrakennetulla Vencordilla. Katso tarkka käyttöönotto-ohje: [docs/split_audio_guide.md](docs/split_audio_guide.md).
   - **Vaihtoehto (Virallinen Discord + [OpenAsar](https://openasar.dev/)):** Jos halutaan käyttää virallista Discord-sovellusta, OpenAsar korvaa Discordin raskaan `app.asar`-tiedoston (~36 KB vs ~9 MB). Nopeuttaa käynnistystä 2–4x ja poistaa telemetrian. Voidaan asentaa suoraan [Vencord-installerilla](https://github.com/Vendicated/VencordInstaller) (`vencord-installer-bin`) ruksittamalla "Install OpenAsar".
   - **Selainvaihtoehto:** Discord suoraan Zen- tai Firefox-selaimessa ilman erillistä taustaprosessia.
