@@ -1,0 +1,16 @@
+# Apuohjelmat & Työkalut (Utilities)
+# spectacle: Ruutukaappaukset ja näytön tallennus Waylandilla
+spectacle
+
+# pavucontrol-qt: Tarkka äänilaitteiden ja sovelluskohtaisten äänten mikseri
+pavucontrol-qt
+
+# ark: Pakattujen tiedostojen hallinta (integroituu Dolphiniin)
+ark
+p7zip
+unrar
+zip
+unzip
+
+# kcalc: Nopea ja kevyt laskin
+kcalc
