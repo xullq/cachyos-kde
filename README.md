@@ -57,6 +57,7 @@ Optimoitu erityisesti:
 ## 📚 Hyödyllisiä linkkejä & Kustomointioppaita
 
 ### 🎨 Ulkoasu ja "Ricing"
+- [Paletty (paletty.dev)](https://paletty.dev/) – Terminaaliväripalettien luonti ja kuvista poimiminen (suora vienti Ghosttyyn, Kittyyn, Alacrittyyn jne.).
 - [fosslife/awesome-ricing](https://github.com/fosslife/awesome-ricing) – Kattava kuraatio parhaista työkaluista, teemoista, fonteista ja oppaista Linux-työpöydän kustomointiin ("The Art of Ricing").
 - [Nadir-Alishly/kde-plasma-rice](https://github.com/Nadir-Alishly/kde-plasma-rice) – Kattava askel askeleelta -opas KDE Plasman kustomointiin (kelluvat paneelit, dock-asettelu, läpikuultavuus ja Kvantum-teemat).
 - [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) – Lisäosa, jolla Plasman paneeleista saa luotua Waybar-tyylisiä kelluvia "pillereitä" ja saarekkeita ilman koodaamista.
