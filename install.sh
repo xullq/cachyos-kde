@@ -54,14 +54,26 @@ echo ":: Aktivoidaan järjestelmäpalvelut (SDDM & Bluetooth)..."
 sudo systemctl enable sddm.service || true
 sudo systemctl enable --now bluetooth.service || true
 
-# 6. Kopioidaan konfiguraatiotiedostot (.config/)
+# 6. Kopioidaan konfiguraatiotiedostot (.config/ ja .zshrc)
 if [ -d "$SCRIPT_DIR/.config" ]; then
     echo ":: Kopioidaan asetustiedostot (~/.config)..."
     mkdir -p "$HOME/.config"
     cp -rn "$SCRIPT_DIR/.config/"* "$HOME/.config/" || true
 fi
 
-# 7. Suoritetaan työpöydän optimoinnit
+if [ -f "$SCRIPT_DIR/.zshrc" ]; then
+    echo ":: Asennetaan ~/.zshrc..."
+    cp -n "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc" || true
+fi
+
+# 7. Asetetaan Zsh oletuskomentotulkiksi
+ZSH_PATH="$(command -v zsh || echo "/usr/bin/zsh")"
+if [ "$SHELL" != "$ZSH_PATH" ]; then
+    echo ":: Asetetaan Zsh oletuskomentotulkiksi ($ZSH_PATH)..."
+    chsh -s "$ZSH_PATH" "$USER" 2>/dev/null || sudo chsh -s "$ZSH_PATH" "$USER" || true
+fi
+
+# 8. Suoritetaan työpöydän optimoinnit
 if [ -f "$SCRIPT_DIR/scripts/optimize.sh" ]; then
     bash "$SCRIPT_DIR/scripts/optimize.sh"
 fi

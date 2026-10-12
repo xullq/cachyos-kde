@@ -1,0 +1,17 @@
+# Komentotulkki & CLI-työkalut (Shell & Modern CLI)
+
+# Pääkomentotulkki (Zsh)
+zsh
+
+# Starship: Äärimmäisen nopea, kaunis ja monipuolinen komentoriviprompt
+starship
+
+# Komentotulkin tuottavuuslaajennukset
+zsh-autosuggestions
+zsh-syntax-highlighting
+fzf
+
+# Modernit Rust-pohjaiset komentorivityökalut
+zoxide          # Älykäs cd-korvaaja ('z')
+eza             # Moderni ls-korvaaja väreillä ja ikoneilla
+bat             # Moderni cat-korvaaja syntaksivärityksellä
