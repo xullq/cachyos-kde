@@ -167,5 +167,9 @@ Optimoitu erityisesti:
   ```
 
 ### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
-* **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
-* **Discord:** `vesktop` (PipeWire-ruudunjako äänellä) tai Discord suoraan Zen-selaimessa.
+* **Spotify:**
+  - `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen raskaan Electron-sovelluksen sijaan.
+* **Discord:**
+  - **Suositus Waylandille:** `vesktop` – Erillinen nopea sovellus, natiivi PipeWire-ruudunjako äänellä ja sisäänrakennettu Vencord.
+  - **Virallinen Discord + [OpenAsar](https://openasar.dev/):** Jos halutaan käyttää virallista Discord-sovellusta, OpenAsar korvaa Discordin raskaan `app.asar`-tiedoston (~36 KB vs ~9 MB). Nopeuttaa käynnistystä 2–4x, pienentää muistinkäyttöä ja poistaa telemetrian. Voidaan asentaa suoraan [Vencord-installerilla](https://github.com/Vendicated/VencordInstaller) (`vencord-installer-bin`) ruksittamalla "Install OpenAsar".
+  - **Selainvaihtoehto:** Discord suoraan Zen- tai Firefox-selaimessa ilman erillistä taustaprosessia.
