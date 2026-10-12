@@ -66,6 +66,9 @@ Optimoitu erityisesti:
 - [kwin-effect-rounded-corners](https://github.com/matinlotfali/KDE-Rounded-Corners) – Ikkunoiden kulmien pyöristys, reunaviivat (outlines) ja varjot Plasma 6 Waylandilla (CachyOS: `kwin-effect-rounded-corners`).
 - [Polonium (Auto-Tiling KWinille)](https://github.com/zeroxoneafour/polonium) – KWin-skripti, joka tuo automaattisen ikkunoiden asettelun (tiling) Plasmaan Waylandilla.
 - [YAMIS (Yet Another Monochrome Icon Set)](https://store.kde.org/p/2303161/) – Minimalistinen adaptiivinen monochrome-kuvaketeema KDE Plasmalle (`yamis-icon-theme-git`).
+- [Kara Pager](https://github.com/dhruv8sh/kara) – Moderni ja siisti työtilaindikaattori (pager) Plasma 6 -paneeliin (`plasma6-applets-kara`).
+- [KDE Material You Colors](https://github.com/luisbocanegra/kde-material-you-colors) – Automaattinen Material You -väripalettien generointi taustakuvasta Plasmaan ja teemoihin (`kde-material-you-colors`).
+- [Window Title Reborn](https://github.com/ShrekBytes/window-title-reborn) – Plasma 6 -paneeliwidgetti aktiivisen ikkunan otsikolle ja säätimille (KDE Store: [store.kde.org/p/2350022](https://store.kde.org/p/2350022)).
 - [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.
 
 ### ⚙️ CachyOS & Suorituskyky
@@ -114,6 +117,39 @@ Optimoitu erityisesti:
   paru -S yamis-icon-theme-git
   ```
   *(Tai suoraan: Järjestelmäasetukset -> Värit ja teemat -> Kuvakkeet -> Hae uusia kuvakkeita -> "YAMIS")*
+
+### 🎯 Kara (Moderni työtilaindikaattori paneeliin)
+* **Lähdekoodi:** [dhruv8sh/kara](https://github.com/dhruv8sh/kara)
+* **Mitä tekee:** Minimalistinen ja moderni virtuaalityöpöytien indikaattori (pager) Plasma 6 -paneelille.
+  - Korvaa vanhanaikaisen KDE-pageroinnin siisteillä Hyprland/Sway-tyylisillä pillereillä, pisteillä tai numeroilla.
+  - Tukee sulavia siirtymäanimaatioita ja eri korostustyylejä.
+* **Asennus (AUR tai KDE Widgetit):**
+  ```bash
+  paru -S plasma6-applets-kara
+  ```
+  *(Tai suoraan paneelista: Lisää widgettejä -> Hae uusia widgettejä -> "Kara")*
+
+### 🎨 KDE Material You Colors (Dynaamiset teemavärit taustakuvasta)
+* **Lähdekoodi:** [luisbocanegra/kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors)
+* **Mitä tekee:** Generoi automaattisesti harmonisen Material You -väripaletin suoraan aktiivisesta työpöydän taustakuvasta.
+  - Soveltaa korostusvärit automaattisesti Plasmaan, ikkunakoristeluihin (esim. Klassy) ja sovelluksiin (Qt/GTK).
+  - Tukee pywal-integraatiota (päivittää terminaalivärit taustakuvan sävyihin).
+* **Asennus (AUR):**
+  ```bash
+  paru -S kde-material-you-colors
+  ```
+
+### 🪟 Window Title Reborn (Aktiivisen ikkunan otsikko paneeliin)
+* **Lähdekoodi:** [ShrekBytes/window-title-reborn](https://github.com/ShrekBytes/window-title-reborn) | [KDE Store](https://store.kde.org/p/2350022)
+* **Mitä tekee:** Näyttää aktiivisen ikkunan otsikon, kuvakkeen ja haluttaessa ikkunapainikkeet suoraan Plasman yläpaneelissa.
+  - Erinomainen kumppani Polonium-laatoitukselle tai Klassylle: ikkunoiden omat otsikkopalkit voidaan piilottaa kokonaan ja säästää pystytilaa puhtaalla macOS / Unity -tyylillä.
+* **Asennus (KDE Widgetit tai Git):**
+  - Suositus: *Paneelin asetukset -> Lisää widgettejä -> Hae uusia widgettejä -> "Window Title Reborn"*.
+  - Tai terminaalista:
+    ```bash
+    git clone https://github.com/ShrekBytes/window-title-reborn.git /tmp/window-title-reborn
+    kpackagetool6 -t Plasma/Applet -i /tmp/window-title-reborn
+    ```
 
 ### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
 * **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
