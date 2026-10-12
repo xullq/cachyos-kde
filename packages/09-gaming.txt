@@ -9,3 +9,11 @@ lib32-gamemode
 # MangoHud: Suorituskyky- ja FPS-overlay
 mangohud
 lib32-mangohud
+
+# Minecraft: Prism Launcher ja tarvittavat Java-versiot (17 ja 21)
+prismlauncher
+jdk17-openjdk
+jdk21-openjdk
+
+# Roblox: Flatpak vaaditaan Sober-asiakkaalle (org.vinegarhq.Sober)
+flatpak
