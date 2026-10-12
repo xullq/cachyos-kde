@@ -14,3 +14,6 @@ unzip
 
 # kcalc: Nopea ja kevyt laskin
 kcalc
+
+# bottom: Rust-pohjainen, huippunopea ja täysin kustomoitava järjestelmämonitori (NVIDIA GPU -tuella)
+bottom

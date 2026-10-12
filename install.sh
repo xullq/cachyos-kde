@@ -54,7 +54,14 @@ echo ":: Aktivoidaan järjestelmäpalvelut (SDDM & Bluetooth)..."
 sudo systemctl enable sddm.service || true
 sudo systemctl enable --now bluetooth.service || true
 
-# 6. Suoritetaan työpöydän optimoinnit
+# 6. Kopioidaan konfiguraatiotiedostot (.config/)
+if [ -d "$SCRIPT_DIR/.config" ]; then
+    echo ":: Kopioidaan asetustiedostot (~/.config)..."
+    mkdir -p "$HOME/.config"
+    cp -rn "$SCRIPT_DIR/.config/"* "$HOME/.config/" || true
+fi
+
+# 7. Suoritetaan työpöydän optimoinnit
 if [ -f "$SCRIPT_DIR/scripts/optimize.sh" ]; then
     bash "$SCRIPT_DIR/scripts/optimize.sh"
 fi

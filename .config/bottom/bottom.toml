@@ -1,0 +1,23 @@
+# ==============================================================================
+# bottom (btm) -konfiguraatio
+# Optimoitu: AMD Ryzen 7 7800X3D + NVIDIA GeForce RTX 3070
+# ==============================================================================
+
+[flags]
+# Aktivoi NVIDIA GPU- ja VRAM-seuranta automaattisesti
+enable_gpu = true
+
+# Pöytäkoneella ei tarvita akkupaneelia
+battery = false
+
+# Näytä CPU:n keskiarvokuorma ja säikeet
+avg_cpu = true
+
+# Lämpötilat Celsius-asteina
+temperature_type = "c"
+
+# Päivitysväli millisekunteina (1 sekunti on erittäin kevyt ja tarkka)
+rate = 1000
+
+# Muistikuvaajan näyttö myös prosentteina
+mem_as_value = true
