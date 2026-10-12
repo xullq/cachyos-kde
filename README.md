@@ -12,7 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
-| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus & sumennus |
+| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx`, `rounded-corners` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus, sumennus & pyöristetyt kulmat |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
 | **Tiedostot** | `dolphin` + thumbnailers | Paras tiedostonhallinta, jaettu näkymä ja esikatselukuvat |
@@ -63,6 +63,7 @@ Optimoitu erityisesti:
 - [Nadir-Alishly/kde-plasma-rice](https://github.com/Nadir-Alishly/kde-plasma-rice) – Kattava askel askeleelta -opas KDE Plasman kustomointiin (kelluvat paneelit, dock-asettelu, läpikuultavuus ja Kvantum-teemat).
 - [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) – Lisäosa, jolla Plasman paneeleista saa luotua Waybar-tyylisiä kelluvia "pillereitä" ja saarekkeita ilman koodaamista.
 - [kwin-effects-better-blur-dx](https://github.com/xarblu/kwin-effects-better-blur-dx) – KWin Plasma 6 sumennustehoste: Force-blur, kylläisyyden ja taittumisen säätö sekä animaatiokorjaukset.
+- [kwin-effect-rounded-corners](https://github.com/matinlotfali/KDE-Rounded-Corners) – Ikkunoiden kulmien pyöristys, reunaviivat (outlines) ja varjot Plasma 6 Waylandilla (CachyOS: `kwin-effect-rounded-corners`).
 - [Polonium (Auto-Tiling KWinille)](https://github.com/zeroxoneafour/polonium) – KWin-skripti, joka tuo automaattisen ikkunoiden asettelun (tiling) Plasmaan Waylandilla.
 - [YAMIS (Yet Another Monochrome Icon Set)](https://store.kde.org/p/2303161/) – Minimalistinen adaptiivinen monochrome-kuvaketeema KDE Plasmalle (`yamis-icon-theme-git`).
 - [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.

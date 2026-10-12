@@ -34,10 +34,11 @@ if command -v kwriteconfig6 &>/dev/null; then
     kwriteconfig6 --file kdeglobals --group General --key fixed "Hurmit Nerd Font,10,-1,5,50,0,0,0,0,0"
 fi
 
-# 4. Aktivoidaan Polonium (Dynaaminen KWin-laatoitus)
+# 4. Aktivoidaan KWin-laajennukset (Polonium-laatoitus & Pyöristetyt kulmat)
 if command -v kwriteconfig6 &>/dev/null; then
-    echo " -> Aktivoidaan Polonium (KWin Tiling)..."
+    echo " -> Aktivoidaan Polonium (KWin Tiling) & Rounded Corners..."
     kwriteconfig6 --file kwinrc --group Plugins --key poloniumEnabled true
+    kwriteconfig6 --file kwinrc --group Plugins --key shapecornersEnabled true
 fi
 
 echo ":: Optimoinnit suoritettu onnistuneesti!"
