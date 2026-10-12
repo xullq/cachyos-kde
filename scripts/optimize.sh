@@ -32,6 +32,10 @@ if command -v kwriteconfig6 &>/dev/null; then
     echo " -> Konfiguroidaan Noto Sans ja Geist Mono oletusfonteiksi..."
     kwriteconfig6 --file kdeglobals --group General --key font "Noto Sans,10,-1,5,50,0,0,0,0,0"
     kwriteconfig6 --file kdeglobals --group General --key fixed "GeistMono Nerd Font,10,-1,5,50,0,0,0,0,0"
+# 4. Aktivoidaan Polonium (Dynaaminen KWin-laatoitus)
+if command -v kwriteconfig6 &>/dev/null; then
+    echo " -> Aktivoidaan Polonium (KWin Tiling)..."
+    kwriteconfig6 --file kwinrc --group Plugins --key poloniumEnabled true
 fi
 
 echo ":: Optimoinnit suoritettu onnistuneesti!"

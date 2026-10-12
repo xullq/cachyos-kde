@@ -12,7 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
-| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme` | Minimalistinen Wayland-ydin, moninäyttöohjaus & SilentSDDM |
+| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium` | Wayland-ydin, moninäyttöohjaus, SilentSDDM & KWin-laatoitus |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
 | **Tiedostot** | `dolphin` + thumbnailers | Paras tiedostonhallinta, jaettu näkymä ja esikatselukuvat |
