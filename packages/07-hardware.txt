@@ -11,6 +11,7 @@ pipewire-pulse
 pipewire-alsa
 pipewire-jack
 wireplumber
+easyeffects
 
 # Huomio NVIDIAlle (RTX 3070):
 # CachyOS asentaa ja konfiguroi NVIDIA-ajurit suoraan 'chwd'-työkalulla asennuksen yhteydessä
