@@ -72,3 +72,24 @@ Optimoitu erityisesti:
 
 ### ⌨️ Pikanäppäimet
 - [Niri-pikanäppäinten vertailutaulukko](docs/shortcuts_reference.md) – Nykyiset läppärisi pikanäppäimet muistiinpanona ja niiden vastineet KDE Plasmassa / Poloniumissa.
+
+---
+
+## 🧪 Harkinnanvaraiset & Kokeelliset komponentit
+
+### 🌌 Caelestia-KDE (Futuristinen työpöytäkuori)
+* **Lähdekoodi:** [ladybug-me/caelestia-kde](https://github.com/ladybug-me/caelestia-kde)
+* **Mitä tekee:** Korvaa Plasman vakiopaneelit Hyprland-tyylisellä modernilla QML/C++ -kuorella (Nexus-ohjauskeskus, dynaamiset väriteemat, kelluvat widgetit ja sivupalkit).
+* **Suorituskyky:** Ei hidasta rautaa (GPU-kiihdytetty Qt6/QML), mutta vaatii enemmän ylläpitoa ja voi vaatia paneelisäätöä kahdella näytöllä.
+* **Asennus haluttaessa kokeilla:**
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/ladybug-me/caelestia-kde/main/install.sh | sh
+  ```
+* **Poisto (palauttaa vakio-Plasman):**
+  ```bash
+  cd ~/caelestia-kde && bash ./uninstall.sh
+  ```
+
+### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
+* **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
+* **Discord:** `vesktop` (PipeWire-ruudunjako äänellä) tai Discord suoraan Zen-selaimessa.
