@@ -69,6 +69,7 @@ Optimoitu erityisesti:
 - [Kara Pager](https://github.com/dhruv8sh/kara) – Moderni ja siisti työtilaindikaattori (pager) Plasma 6 -paneeliin (`plasma6-applets-kara`).
 - [KDE Material You Colors](https://github.com/luisbocanegra/kde-material-you-colors) – Automaattinen Material You -väripalettien generointi taustakuvasta Plasmaan ja teemoihin (`kde-material-you-colors`).
 - [Window Title Reborn](https://github.com/ShrekBytes/window-title-reborn) – Plasma 6 -paneeliwidgetti aktiivisen ikkunan otsikolle ja säätimille (KDE Store: [store.kde.org/p/2350022](https://store.kde.org/p/2350022)).
+- [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor) – Moderni, pyöristetty ja viimeistelty kursoriteema (`bibata-cursor-theme-bin`).
 - [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.
 
 ### ⚙️ CachyOS & Suorituskyky
@@ -150,6 +151,19 @@ Optimoitu erityisesti:
     git clone https://github.com/ShrekBytes/window-title-reborn.git /tmp/window-title-reborn
     kpackagetool6 -t Plasma/Applet -i /tmp/window-title-reborn
     ```
+
+### 🖱️ Bibata Cursor (Pyöristetty moderni osoitinteema)
+* **Lähdekoodi:** [ful1e5/Bibata_Cursor](https://github.com/ful1e5/Bibata_Cursor)
+* **Mitä tekee:** Yksi Linux-yhteisön suosituimmista ja viimeistellyimmistä kursoriteemoista.
+  - Erinomainen kumppani pyöristetyille ikkunoille ja moderneille teemoille.
+  - Suosituimmat variantit:
+    - `Bibata-Modern-Classic` (musta pehmeällä valkoisella reunuksella)
+    - `Bibata-Modern-Ice` (puhdas valkoinen mustalla varjostuksella)
+    - `Bibata-Modern-Amber` (keltainen/oranssi)
+* **Asennus (AUR):**
+  ```bash
+  paru -S bibata-cursor-theme-bin
+  ```
 
 ### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
 * **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
