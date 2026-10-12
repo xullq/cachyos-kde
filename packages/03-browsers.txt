@@ -1,0 +1,6 @@
+# Verkkoselaimet (Browsers)
+# Zen Browser: Pääselain henkilökohtaiseen käyttöön (pystyvälilehdet, nopea Gecko-moottori)
+zen-browser-bin
+
+# Firefox: Kehityskäyttöön (DevTools, yhteensopivuustestaus)
+firefox
