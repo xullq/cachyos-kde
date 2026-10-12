@@ -91,6 +91,17 @@ Optimoitu erityisesti:
   cd ~/caelestia-kde && bash ./uninstall.sh
   ```
 
+### 🪟 Klassy (Edistynyt ikkunakoristelu & otsikkopalkkien hallinta)
+* **Lähdekoodi:** [paulmcauley/klassy](https://github.com/paulmcauley/klassy)
+* **Mitä tekee:** Korvaa perus-Breezen edistyneellä ikkunakoristelulla:
+  - Mahdollistaa erittäin matalat (slim) tai läpinäkyvät otsikkopalkit.
+  - Säädettävä kulmien pyöristyssäde (corner radius).
+  - *Window-Specific Overrides* -valikosta otsikkopalkit tai painikkeet voi piilottaa sovelluskohtaisesti.
+* **Asennus haluttaessa kokeilla (AUR):**
+  ```bash
+  paru -S klassy
+  ```
+
 ### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
 * **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
 * **Discord:** `vesktop` (PipeWire-ruudunjako äänellä) tai Discord suoraan Zen-selaimessa.
