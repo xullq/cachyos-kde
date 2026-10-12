@@ -17,3 +17,9 @@ kcalc
 
 # bottom: Rust-pohjainen, huippunopea ja täysin kustomoitava järjestelmämonitori (NVIDIA GPU -tuella)
 bottom
+
+# fastfetch: Huippunopea C-pohjainen järjestelmätietojen tulostaja terminaaliin
+fastfetch
+
+# onefetch: Git-repositorioiden tietojen tulostus terminaalissa
+onefetch
