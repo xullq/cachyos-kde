@@ -23,3 +23,14 @@ fastfetch
 
 # onefetch: Git-repositorioiden tietojen tulostus terminaalissa
 onefetch
+
+# bitwarden: Salasananhallinta
+bitwarden
+
+# ntfs-3g: Windows-levyjen luku- ja kirjoitustuki Dolphinissa
+ntfs-3g
+
+# Btrfs & Snapshots: Palautuspisteiden graafinen hallinta ja automaattiset päivityssnapshotit
+btrfs-assistant
+snapper
+snap-pac

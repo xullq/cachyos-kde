@@ -21,7 +21,7 @@ Optimoitu erityisesti:
 | **Editorit** | `vscodium-bin`, `zed`, `micro` | Telemetriaton VS Code laajennuksille, nopea Zed & CLI-editori |
 | **AI-työkalut** | `@anthropic-ai/claude-code` | Claude Code CLI terminaaliin |
 | **Media & Kuvat** | `qview`, `vlc` | Ultrakevyt Qt-kuvankatselin ja monipuolinen videosoitin |
-| **Apuohjelmat** | `bottom`, `fastfetch`, `onefetch`, `spectacle`, `pavucontrol-qt`, `ark`, `kcalc` | Järjestelmämonitori, fetchit, ruutukaappaukset ja mikseri |
+| **Apuohjelmat & Levyt** | `bottom`, `fastfetch`, `bitwarden`, `btrfs-assistant`, `ntfs-3g`, `spectacle`, `pavucontrol-qt`, `ark` | Työkalut, salasanat, Btrfs-snapshotit ja Windows-levytuki |
 | **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `bluez`, `bluedevil` | Äänisuodatus ja Bluetooth-integraatio |
 | **Pelaaminen** | `steam`, `gamemode`, `mangohud` | Täysi suorituskyky ja FPS-seuranta peleihin |
 | **Fontit** | `ttf-geist-mono-nerd`, `noto-fonts` | Moderni Geist Mono koodaukseen ja Noto järjestelmälle |
