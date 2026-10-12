@@ -24,3 +24,6 @@ breeze-icons
 
 # Polonium: Dynaaminen Kröhnkite/dwm-tyylinen ikkunalaatoitus KWinille (Plasma 6)
 kwin-polonium
+
+# Better Blur DX: Laadukas KWin-sumennustehoste ja force-blur läpikuultaville ikkunoille
+kwin-effects-better-blur-dx

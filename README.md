@@ -12,7 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
-| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium` | Wayland-ydin, moninäyttöohjaus, SilentSDDM & KWin-laatoitus |
+| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus & sumennus |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
 | **Tiedostot** | `dolphin` + thumbnailers | Paras tiedostonhallinta, jaettu näkymä ja esikatselukuvat |
@@ -62,6 +62,7 @@ Optimoitu erityisesti:
 - [fosslife/awesome-ricing](https://github.com/fosslife/awesome-ricing) – Kattava kuraatio parhaista työkaluista, teemoista, fonteista ja oppaista Linux-työpöydän kustomointiin ("The Art of Ricing").
 - [Nadir-Alishly/kde-plasma-rice](https://github.com/Nadir-Alishly/kde-plasma-rice) – Kattava askel askeleelta -opas KDE Plasman kustomointiin (kelluvat paneelit, dock-asettelu, läpikuultavuus ja Kvantum-teemat).
 - [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) – Lisäosa, jolla Plasman paneeleista saa luotua Waybar-tyylisiä kelluvia "pillereitä" ja saarekkeita ilman koodaamista.
+- [kwin-effects-better-blur-dx](https://github.com/xarblu/kwin-effects-better-blur-dx) – KWin Plasma 6 sumennustehoste: Force-blur, kylläisyyden ja taittumisen säätö sekä animaatiokorjaukset.
 - [Polonium (Auto-Tiling KWinille)](https://github.com/zeroxoneafour/polonium) – KWin-skripti, joka tuo automaattisen ikkunoiden asettelun (tiling) Plasmaan Waylandilla.
 - [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.
 
