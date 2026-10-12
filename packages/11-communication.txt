@@ -1,0 +1,6 @@
+# Viestintä & Kommunikaatio (Communication)
+
+# Vesktop: Moderni, GPU-kiihdytetty Discord-asiakasohjelma Waylandille
+# Sisältää natiivin PipeWire-ruudunjaon, sovelluskohtaisen äänenkaappauksen
+# (pelin äänet ilman Discord-puhelun kaikua) ja sisäänrakennetun Vencordin.
+vesktop-bin

@@ -21,7 +21,8 @@ Optimoitu erityisesti:
 | **AI-työkalut** | `@anthropic-ai/claude-code` | Claude Code CLI terminaaliin |
 | **Media & Kuvat** | `qview`, `vlc` | Ultrakevyt Qt-kuvankatselin ja monipuolinen videosoitin |
 | **Apuohjelmat & Levyt** | `bottom`, `fastfetch`, `bitwarden`, `btrfs-assistant`, `ntfs-3g`, `spectacle`, `pavucontrol-qt`, `ark` | Työkalut, salasanat, Btrfs-snapshotit ja Windows-levytuki |
-| **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `bluez`, `bluedevil` | Äänisuodatus ja Bluetooth-integraatio |
+| **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `qpwgraph`, `bluez`, `bluedevil` | Äänisuodatus, PipeWire-reititys ja Bluetooth-integraatio |
+| **Viestintä** | `vesktop-bin` | Natiivi Wayland-Discord, PipeWire-ruudunjako & pelin äänet ilman puhelukaikua |
 | **Pelaaminen** | `steam`, `prismlauncher`, `flatpak` (Sober), `gamemode`, `mangohud` | Täysi suorituskyky, Minecraft, Roblox ja pelityökalut |
 | **Fontit** | `otf-hermit-nerd`, `noto-fonts` | Selkeä Hermit koodaukseen/terminaaliin ja Noto järjestelmälle |
 
@@ -166,10 +167,10 @@ Optimoitu erityisesti:
   paru -S bibata-cursor-theme-bin
   ```
 
-### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
-* **Spotify:**
+### 🎵 Musiikki & Viestintä
+* **Spotify (Myöhemmin päätettävä):**
   - `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen raskaan Electron-sovelluksen sijaan.
-* **Discord:**
-  - **Suositus Waylandille:** `vesktop` – Erillinen nopea sovellus, natiivi PipeWire-ruudunjako äänellä ja sisäänrakennettu Vencord.
-  - **Virallinen Discord + [OpenAsar](https://openasar.dev/):** Jos halutaan käyttää virallista Discord-sovellusta, OpenAsar korvaa Discordin raskaan `app.asar`-tiedoston (~36 KB vs ~9 MB). Nopeuttaa käynnistystä 2–4x, pienentää muistinkäyttöä ja poistaa telemetrian. Voidaan asentaa suoraan [Vencord-installerilla](https://github.com/Vendicated/VencordInstaller) (`vencord-installer-bin`) ruksittamalla "Install OpenAsar".
+* **Discord (Valittu: `vesktop-bin`):**
+  - **Mukana asennuksessa:** `vesktop-bin` – Natiivi PipeWire-ruudunjako sovelluskohtaisella äänieristyksellä ja sisäänrakennetulla Vencordilla.
+  - **Vaihtoehto (Virallinen Discord + [OpenAsar](https://openasar.dev/)):** Jos halutaan käyttää virallista Discord-sovellusta, OpenAsar korvaa Discordin raskaan `app.asar`-tiedoston (~36 KB vs ~9 MB). Nopeuttaa käynnistystä 2–4x ja poistaa telemetrian. Voidaan asentaa suoraan [Vencord-installerilla](https://github.com/Vendicated/VencordInstaller) (`vencord-installer-bin`) ruksittamalla "Install OpenAsar".
   - **Selainvaihtoehto:** Discord suoraan Zen- tai Firefox-selaimessa ilman erillistä taustaprosessia.
