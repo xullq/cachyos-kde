@@ -2,8 +2,8 @@
 # Ghostty -konfiguraatio
 # ==============================================================================
 
-# Typografia (Geist Mono Nerd Font)
-font-family = "GeistMono Nerd Font"
+# Typografia (Hermit / Hurmit Nerd Font)
+font-family = "Hurmit Nerd Font"
 font-size = 11
 
 # Ikkunan ulkoasu & Wayland-viimeistely

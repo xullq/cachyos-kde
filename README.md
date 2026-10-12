@@ -23,14 +23,14 @@ Optimoitu erityisesti:
 | **Apuohjelmat & Levyt** | `bottom`, `fastfetch`, `bitwarden`, `btrfs-assistant`, `ntfs-3g`, `spectacle`, `pavucontrol-qt`, `ark` | Työkalut, salasanat, Btrfs-snapshotit ja Windows-levytuki |
 | **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `bluez`, `bluedevil` | Äänisuodatus ja Bluetooth-integraatio |
 | **Pelaaminen** | `steam`, `prismlauncher`, `flatpak` (Sober), `gamemode`, `mangohud` | Täysi suorituskyky, Minecraft, Roblox ja pelityökalut |
-| **Fontit** | `ttf-geist-mono-nerd`, `noto-fonts` | Moderni Geist Mono koodaukseen ja Noto järjestelmälle |
+| **Fontit** | `otf-hermit-nerd`, `noto-fonts` | Selkeä Hermit koodaukseen/terminaaliin ja Noto järjestelmälle |
 
 ---
 
 ## ⚡ Optimoinnit (`scripts/optimize.sh`)
 - **Baloo-tiedostohaku poistettu käytöstä:** Säästää levyn I/O:ta ja suorittimen taustakuormaa.
 - **Käyttöliittymän animaatiot:** Nopeutettu 2x, jotta työpöytä reagoi viiveettä.
-- **Fontit:** Asetettu Noto Sans ja Geist Mono oletuksiksi.
+- **Fontit:** Asetettu Noto Sans ja Hermit Nerd Font oletuksiksi.
 
 ---
 

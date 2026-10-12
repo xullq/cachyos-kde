@@ -1,8 +1,8 @@
 # Fontit & Typografia (Fonts & Typography)
 
 # Pääte- ja koodausfontti (Ghostty, VSCodium, Zed)
-# Geist Mono Nerd Font: Minimalistinen, moderni ja sisältää terminaalisymbolit
-ttf-geist-mono-nerd
+# Hermit Nerd Font: Selkeä, ohjelmoijille suunniteltu ja erittäin luettava fontti Nerd Font -symboleilla
+otf-hermit-nerd
 
 # Käyttöliittymä- ja järjestelmäfontti
 noto-fonts
