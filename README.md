@@ -69,3 +69,6 @@ Optimoitu erityisesti:
 - [CachyOS Wiki](https://wiki.cachyos.org/) – CachyOS:n virallinen dokumentaatio, x86-64-v3/v4 -repositoriot ja `chwd`-ajurienhallinta.
 - [CachyOS Gaming Guide](https://wiki.cachyos.org/gaming/) – Optimaaliset asetukset Steamille, Protonille ja GameModelle.
 - [Arch Wiki: KDE](https://wiki.archlinux.org/title/KDE) – Yksityiskohtainen opas KDE Plasman asetuksiin, palveluihin ja virheenkorjaukseen.
+
+### ⌨️ Pikanäppäimet
+- [Niri-pikanäppäinten vertailutaulukko](docs/shortcuts_reference.md) – Nykyiset läppärisi pikanäppäimet muistiinpanona ja niiden vastineet KDE Plasmassa / Poloniumissa.
