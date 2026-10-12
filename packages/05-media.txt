@@ -1,0 +1,6 @@
+# Media & Kuvankatselu (Media & Image Viewers)
+# qview: Äärimmäisen kevyt, nopea ja minimalistinen Qt-kuvankatselin
+qview
+
+# vlc: Monipuolinen ja varma mediasoitin
+vlc
