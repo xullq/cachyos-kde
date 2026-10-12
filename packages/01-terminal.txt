@@ -1,0 +1,3 @@
+# Pääteohjelma (Terminal)
+# Ghostty: Moderni, GPU-kiihdytetty, natiivi Wayland-tuki ja nopea käynnistys
+ghostty
