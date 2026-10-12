@@ -1,0 +1,11 @@
+# Pelaaminen (Gaming)
+# Steam: Pelialusta ja Proton-yhteensopivuuskerros
+steam
+
+# Feral GameMode: Maksimoi CPU/GPU-suorituskyvyn pelin ajaksi (64-bit ja 32-bit)
+gamemode
+lib32-gamemode
+
+# MangoHud: Suorituskyky- ja FPS-overlay
+mangohud
+lib32-mangohud
