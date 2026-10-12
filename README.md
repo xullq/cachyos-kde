@@ -64,6 +64,7 @@ Optimoitu erityisesti:
 - [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) – Lisäosa, jolla Plasman paneeleista saa luotua Waybar-tyylisiä kelluvia "pillereitä" ja saarekkeita ilman koodaamista.
 - [kwin-effects-better-blur-dx](https://github.com/xarblu/kwin-effects-better-blur-dx) – KWin Plasma 6 sumennustehoste: Force-blur, kylläisyyden ja taittumisen säätö sekä animaatiokorjaukset.
 - [Polonium (Auto-Tiling KWinille)](https://github.com/zeroxoneafour/polonium) – KWin-skripti, joka tuo automaattisen ikkunoiden asettelun (tiling) Plasmaan Waylandilla.
+- [YAMIS (Yet Another Monochrome Icon Set)](https://store.kde.org/p/2303161/) – Minimalistinen adaptiivinen monochrome-kuvaketeema KDE Plasmalle (`yamis-icon-theme-git`).
 - [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.
 
 ### ⚙️ CachyOS & Suorituskyky
@@ -101,6 +102,17 @@ Optimoitu erityisesti:
   ```bash
   paru -S klassy
   ```
+
+### 🖼️ YAMIS (Yet Another Monochrome Icon Set)
+* **KDE Store:** [store.kde.org/p/2303161](https://store.kde.org/p/2303161/)
+* **Mitä tekee:** Puhdas ja yhtenäinen adaptiivinen monochrome-kuvakepaketti KDE Plasmalle.
+  - Mukautuu automaattisesti järjestelmän valittuun korostusväriin (accent color) tai pysyy neutraalina (harmaa/valkoinen/musta).
+  - Täydellinen minimalistiseen tyyliin, jos oletusarvoiset värikkäät kuvakkeet häiritsevät.
+* **Asennus (AUR tai KDE Asetukset):**
+  ```bash
+  paru -S yamis-icon-theme-git
+  ```
+  *(Tai suoraan: Järjestelmäasetukset -> Värit ja teemat -> Kuvakkeet -> Hae uusia kuvakkeita -> "YAMIS")*
 
 ### 🎵 Musiikki & Viestintä (Myöhemmin päätettävät)
 * **Spotify:** `spot` (Rust-natiivi kevyt GUI) tai `ncspot` (terminaaliin) virallisen Electron-äpin sijaan.
