@@ -1,0 +1,7 @@
+# Tiedostonhallinta (File Manager)
+# Dolphin: Nopea, tehokas ja paras integraatio KDE Plasmalle
+dolphin
+
+# Esikatselukuvat tiedostoille (Thumbnailers)
+kdegraphics-thumbnailers
+ffmpegthumbs
