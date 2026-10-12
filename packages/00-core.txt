@@ -1,0 +1,18 @@
+# KDE Plasma Wayland Minimal Core
+# Työpöydän perusydin ilman ylimääräisiä KDE-ohjelmia
+plasma-desktop
+sddm
+
+# Moninäyttö & Wayland -integraatio (KRIITTINEN kahdelle näytölle)
+kscreen
+xdg-desktop-portal-kde
+qt5-wayland
+qt6-wayland
+
+# Peruswidgetit & autentikointi
+plasma-nm
+plasma-pa
+powerdevil
+polkit-kde-agent
+breeze
+breeze-icons

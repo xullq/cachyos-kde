@@ -1,0 +1,17 @@
+# Laitteistotuki & Ajurit (Hardware & Drivers)
+
+# Bluetooth (Kuulokkeet, hiiret, ohjaimet)
+bluez
+bluez-utils
+bluedevil
+
+# Äänijärjestelmä (PipeWire & WirePlumber)
+pipewire
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+wireplumber
+
+# Huomio NVIDIAlle (RTX 3070):
+# CachyOS asentaa ja konfiguroi NVIDIA-ajurit suoraan 'chwd'-työkalulla asennuksen yhteydessä
+# (cachyos-nvidia-open tai nvidia-dkms).
