@@ -12,8 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
-| :--- | :--- | :--- |
-| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm` | Minimalistinen Wayland-ydin + moninäyttöohjaus |
+| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme` | Minimalistinen Wayland-ydin, moninäyttöohjaus & SilentSDDM |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
 | **Tiedostot** | `dolphin` + thumbnailers | Paras tiedostonhallinta, jaettu näkymä ja esikatselukuvat |
@@ -58,6 +57,7 @@ Optimoitu erityisesti:
 ## 📚 Hyödyllisiä linkkejä & Kustomointioppaita
 
 ### 🎨 Ulkoasu ja "Ricing"
+- [uiriansan/SilentSDDM](https://github.com/uiriansan/SilentSDDM) – Äärimmäisen minimalistinen, moderni ja rauhallinen Qt6 SDDM -kirjautumisteema (Catppuccin, Nord ja Everforest -preseteillä).
 - [Paletty (paletty.dev)](https://paletty.dev/) – Terminaaliväripalettien luonti ja kuvista poimiminen (suora vienti Ghosttyyn, Kittyyn, Alacrittyyn jne.).
 - [fosslife/awesome-ricing](https://github.com/fosslife/awesome-ricing) – Kattava kuraatio parhaista työkaluista, teemoista, fonteista ja oppaista Linux-työpöydän kustomointiin ("The Art of Ricing").
 - [Nadir-Alishly/kde-plasma-rice](https://github.com/Nadir-Alishly/kde-plasma-rice) – Kattava askel askeleelta -opas KDE Plasman kustomointiin (kelluvat paneelit, dock-asettelu, läpikuultavuus ja Kvantum-teemat).

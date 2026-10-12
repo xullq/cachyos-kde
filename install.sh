@@ -54,7 +54,25 @@ echo ":: Aktivoidaan järjestelmäpalvelut (SDDM & Bluetooth)..."
 sudo systemctl enable sddm.service || true
 sudo systemctl enable --now bluetooth.service || true
 
-# 6. Kopioidaan konfiguraatiotiedostot (.config/ ja .zshrc)
+# 6. Konfiguroidaan SilentSDDM -teema jos asennettu
+if [ -d "/usr/share/sddm/themes/silent" ]; then
+    echo ":: Aktivoidaan SilentSDDM -kirjautumisteema..."
+    sudo mkdir -p /etc/sddm.conf.d
+    sudo tee /etc/sddm.conf.d/silent.conf > /dev/null << 'EOF'
+[General]
+InputMethod=qtvirtualkeyboard
+GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
+
+[Theme]
+Current=silent
+EOF
+    # Valitaan Catppuccin Mocha -presetti jos saatavilla (sopii Ghosttyyn)
+    if [ -f "/usr/share/sddm/themes/silent/configs/catppuccin-mocha.conf" ]; then
+        sudo cp -f /usr/share/sddm/themes/silent/configs/catppuccin-mocha.conf /usr/share/sddm/themes/silent/theme.conf 2>/dev/null || true
+    fi
+fi
+
+# 7. Kopioidaan konfiguraatiotiedostot (.config/ ja .zshrc)
 if [ -d "$SCRIPT_DIR/.config" ]; then
     echo ":: Kopioidaan asetustiedostot (~/.config)..."
     mkdir -p "$HOME/.config"

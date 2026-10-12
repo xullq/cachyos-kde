@@ -1,7 +1,12 @@
-# KDE Plasma Wayland Minimal Core
-# Työpöydän perusydin ilman ylimääräisiä KDE-ohjelmia
 plasma-desktop
+
+# SDDM & SilentSDDM (Minimalistinen, puhdas kirjautumisteema)
 sddm
+sddm-silent-theme
+qt6-svg
+qt6-virtualkeyboard
+qt6-multimedia
+qt6-imageformats
 
 # Moninäyttö & Wayland -integraatio (KRIITTINEN kahdelle näytölle)
 kscreen
