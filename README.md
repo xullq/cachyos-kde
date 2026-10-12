@@ -39,7 +39,7 @@ Optimoitu erityisesti:
 1. Asenna CachyOS (esim. Base/CLI tai ilman ylimääräisiä paketteja).
 2. Kloonaa tämä repositorio:
    ```bash
-   git clone <repo-url> ~/cachyos-kde
+   git clone https://github.com/xullq/cachyos-kde.git ~/cachyos-kde
    cd ~/cachyos-kde
    ```
 3. Aja asennusskripti:
@@ -51,3 +51,18 @@ Optimoitu erityisesti:
    ```bash
    sudo reboot
    ```
+
+---
+
+## 📚 Hyödyllisiä linkkejä & Kustomointioppaita
+
+### 🎨 Ulkoasu ja "Ricing"
+- [Nadir-Alishly/kde-plasma-rice](https://github.com/Nadir-Alishly/kde-plasma-rice) – Kattava askel askeleelta -opas KDE Plasman kustomointiin (kelluvat paneelit, dock-asettelu, läpikuultavuus ja Kvantum-teemat).
+- [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) – Lisäosa, jolla Plasman paneeleista saa luotua Waybar-tyylisiä kelluvia "pillereitä" ja saarekkeita ilman koodaamista.
+- [Polonium (Auto-Tiling KWinille)](https://github.com/zeroxoneafour/polonium) – KWin-skripti, joka tuo automaattisen ikkunoiden asettelun (tiling) Plasmaan Waylandilla.
+- [KDE Store (store.kde.org)](https://store.kde.org/) – Plasmoidit, widgetit, teemat ja kuvakepaketit.
+
+### ⚙️ CachyOS & Suorituskyky
+- [CachyOS Wiki](https://wiki.cachyos.org/) – CachyOS:n virallinen dokumentaatio, x86-64-v3/v4 -repositoriot ja `chwd`-ajurienhallinta.
+- [CachyOS Gaming Guide](https://wiki.cachyos.org/gaming/) – Optimaaliset asetukset Steamille, Protonille ja GameModelle.
+- [Arch Wiki: KDE](https://wiki.archlinux.org/title/KDE) – Yksityiskohtainen opas KDE Plasman asetuksiin, palveluihin ja virheenkorjaukseen.
