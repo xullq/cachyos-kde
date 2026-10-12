@@ -41,4 +41,19 @@ if command -v kwriteconfig6 &>/dev/null; then
     kwriteconfig6 --file kwinrc --group Plugins --key shapecornersEnabled true
 fi
 
+# 5. Konfiguroidaan osoitinteema (Bibata-Modern-Classic)
+echo " -> Asetetaan osoitinteemaksi Bibata-Modern-Classic..."
+mkdir -p "$HOME/.icons/default"
+cat << 'EOF' > "$HOME/.icons/default/index.theme"
+[Icon Theme]
+Name=Default
+Comment=Default Cursor Theme
+Inherits=Bibata-Modern-Classic
+EOF
+
+if command -v kwriteconfig6 &>/dev/null; then
+    kwriteconfig6 --file kcminputrc --group Mouse --key cursorTheme Bibata-Modern-Classic
+    kwriteconfig6 --file kcminputrc --group Mouse --key cursorSize 24
+fi
+
 echo ":: Optimoinnit suoritettu onnistuneesti!"

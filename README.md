@@ -12,7 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
-| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx`, `rounded-corners` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus, sumennus & pyöristetyt kulmat |
+| **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx`, `rounded-corners`, `bibata-cursor` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus, sumennus, pyöristetyt kulmat & Bibata-kursori |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
 | **Tiedostot** | `dolphin` + thumbnailers | Paras tiedostonhallinta, jaettu näkymä ja esikatselukuvat |
@@ -31,6 +31,7 @@ Optimoitu erityisesti:
 - **Baloo-tiedostohaku poistettu käytöstä:** Säästää levyn I/O:ta ja suorittimen taustakuormaa.
 - **Käyttöliittymän animaatiot:** Nopeutettu 2x, jotta työpöytä reagoi viiveettä.
 - **Fontit:** Asetettu Noto Sans ja Hermit Nerd Font oletuksiksi.
+- **Osoitinteema:** Asetettu Bibata-Modern-Classic oletukseksi (Plasma, GTK ja XCursor).
 
 ---
 

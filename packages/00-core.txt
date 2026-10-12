@@ -22,6 +22,9 @@ polkit-kde-agent
 breeze
 breeze-icons
 
+# Osoitinteema (Moderni musta Bibata-osoitin)
+bibata-cursor-theme-bin
+
 # Polonium: Dynaaminen Kröhnkite/dwm-tyylinen ikkunalaatoitus KWinille (Plasma 6)
 kwin-polonium
 
