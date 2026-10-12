@@ -1,0 +1,13 @@
+# Koodieditorit & Kehitystyökalut (Editors & Dev Tools)
+# VSCodium: Telemetriaton, nopea VS Code -pohjainen editori laajennuksille
+vscodium-bin
+
+# Zed: Rust-pohjainen, GPU-kiihdytetty huippunopea moderni editori
+zed
+
+# Node.js & npm (mahdollistaa Claude Code CLI:n: npm install -g @anthropic-ai/claude-code)
+nodejs
+npm
+
+# micro: Kevyt terminaalieditori pikaisiin asetustiedostojen muokkauksiin
+micro
