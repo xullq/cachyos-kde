@@ -1,0 +1,11 @@
+# Fontit & Typografia (Fonts & Typography)
+
+# Pääte- ja koodausfontti (Ghostty, VSCodium, Zed)
+# Geist Mono Nerd Font: Minimalistinen, moderni ja sisältää terminaalisymbolit
+ttf-geist-mono-nerd
+
+# Käyttöliittymä- ja järjestelmäfontti
+noto-fonts
+
+# Emojit ja erikoismerkit
+noto-fonts-emoji
