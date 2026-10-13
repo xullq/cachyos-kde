@@ -54,7 +54,13 @@ echo ":: Aktivoidaan järjestelmäpalvelut (SDDM & Bluetooth)..."
 sudo systemctl enable sddm.service || true
 sudo systemctl enable --now bluetooth.service || true
 
-# 6. Konfiguroidaan SilentSDDM -teema jos asennettu
+# 6. Lisätään käyttäjä gamemode-ryhmään (vaaditaan renice-priorisointiin ilman salasanaa)
+if getent group gamemode >/dev/null 2>&1; then
+    echo ":: Lisätään käyttäjä $USER gamemode-ryhmään..."
+    sudo usermod -aG gamemode "$USER" || true
+fi
+
+# 7. Konfiguroidaan SilentSDDM -teema jos asennettu
 if [ -d "/usr/share/sddm/themes/silent" ]; then
     echo ":: Aktivoidaan SilentSDDM -kirjautumisteema..."
     sudo mkdir -p /etc/sddm.conf.d
@@ -72,7 +78,7 @@ EOF
     fi
 fi
 
-# 7. Kopioidaan konfiguraatiotiedostot (.config/ ja .zshrc)
+# 8. Kopioidaan konfiguraatiotiedostot (.config/ ja .zshrc)
 if [ -d "$SCRIPT_DIR/.config" ]; then
     echo ":: Kopioidaan asetustiedostot (~/.config)..."
     mkdir -p "$HOME/.config"
@@ -84,14 +90,14 @@ if [ -f "$SCRIPT_DIR/.zshrc" ]; then
     cp -n "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc" || true
 fi
 
-# 7. Asetetaan Zsh oletuskomentotulkiksi
+# 9. Asetetaan Zsh oletuskomentotulkiksi
 ZSH_PATH="$(command -v zsh || echo "/usr/bin/zsh")"
 if [ "$SHELL" != "$ZSH_PATH" ]; then
     echo ":: Asetetaan Zsh oletuskomentotulkiksi ($ZSH_PATH)..."
     chsh -s "$ZSH_PATH" "$USER" 2>/dev/null || sudo chsh -s "$ZSH_PATH" "$USER" || true
 fi
 
-# 8. Suoritetaan työpöydän optimoinnit
+# 10. Suoritetaan työpöydän optimoinnit
 if [ -f "$SCRIPT_DIR/scripts/optimize.sh" ]; then
     bash "$SCRIPT_DIR/scripts/optimize.sh"
 fi

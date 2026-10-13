@@ -17,3 +17,7 @@ qpwgraph
 # Huomio NVIDIAlle (RTX 3070):
 # CachyOS asentaa ja konfiguroi NVIDIA-ajurit suoraan 'chwd'-työkalulla asennuksen yhteydessä
 # (cachyos-nvidia-open tai nvidia-dkms).
+# nvidia-settings: NVIDIA X Server Settings -paneeli ja CLI-työkalu, jota Feral GameMode
+# käyttää näytönohjaimen PowerMizer-suorituskykytilan vaihtamiseen pelin ajaksi.
+nvidia-settings
+

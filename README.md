@@ -22,19 +22,23 @@ Optimoitu erityisesti:
 | **AI-työkalut** | `@anthropic-ai/claude-code` | Claude Code CLI terminaaliin |
 | **Media & Kuvat** | `qview`, `vlc` | Ultrakevyt Qt-kuvankatselin ja monipuolinen videosoitin |
 | **Apuohjelmat & Levyt** | `bottom`, `fastfetch`, `bitwarden`, `btrfs-assistant`, `ntfs-3g`, `spectacle`, `pavucontrol-qt`, `ark` | Työkalut, salasanat, Btrfs-snapshotit ja Windows-levytuki |
-| **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `qpwgraph`, `bluez`, `bluedevil` | Äänisuodatus, PipeWire-reititys ja Bluetooth-integraatio |
+| **Ääni & Laitteisto** | `pipewire`, `easyeffects`, `qpwgraph`, `bluez`, `bluedevil`, `nvidia-settings` | Äänisuodatus, PipeWire-reititys, Bluetooth ja NVIDIA PowerMizer -hallinta |
 | **Viestintä** | `vesktop-bin` | Natiivi Wayland-Discord, PipeWire-ruudunjako & pelin äänet ilman puhelukaikua |
 | **Pelaaminen** | `steam`, `prismlauncher`, `flatpak` (Sober), `gamemode`, `mangohud` | Täysi suorituskyky, Minecraft, Roblox ja pelityökalut |
 | **Fontit** | `otf-hermit-nerd`, `noto-fonts` | Selkeä Hermit koodaukseen/terminaaliin ja Noto järjestelmälle |
 
 ---
 
-## ⚡ Optimoinnit (`scripts/optimize.sh`)
+## ⚡ Optimoinnit (`scripts/optimize.sh` & `.config/`)
 - **Baloo-tiedostohaku poistettu käytöstä:** Säästää levyn I/O:ta ja suorittimen taustakuormaa.
 - **Käyttöliittymän animaatiot:** Nopeutettu 2x, jotta työpöytä reagoi viiveettä.
 - **Fontit:** Asetettu Noto Sans ja Hermit Nerd Font oletuksiksi.
 - **Osoitinteema:** Asetettu Bibata-Modern-Classic oletukseksi (Plasma, GTK ja XCursor).
 - **Polonium-suodatukset:** Asetettu apuohjelmat automaattisesti laatoituksen ohituslistalle (`filterProcess`).
+- **Feral GameMode & NVIDIA PowerMizer (`.config/gamemode.ini`):**
+  - **CPU:** Yksisiruiselle Ryzen 7 7800X3D:lle optimoitu ilman turhaa ydinten parkkeerausta (`park_cores=no`, `pin_cores=no`).
+  - **Prioriteetti:** Peliprosessin renice (`renice=10`) ja suurin I/O-prioriteetti (`ioprio=0`).
+  - **GPU:** RTX 3070 asetetaan pelin ajaksi tilaan *Prefer Maximum Performance* (`nv_powermizer_mode=1`) ehkäisemään kellotaajuusnotkahduksia, ja palautetaan adaptiiviseksi pelin sulkeutuessa.
 
 ---
 
