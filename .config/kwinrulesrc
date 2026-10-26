@@ -1,0 +1,60 @@
+[General]
+count=5
+rules=4153f4ad-18a9-4dca-8c39-007716d1a09c,64ac6b9a-9dde-4358-806d-49b22322b54b,0cb01e18-0b77-4f1f-80bf-96278a662e4b,4d76dcf3-377e-475b-af83-6d368ff8ca1d,31adb802-930c-4d49-9a23-3a492b2d51e7
+
+[4153f4ad-18a9-4dca-8c39-007716d1a09c]
+Description=Floating Utility Windows (Bitwarden, KCalc, Pavucontrol, qView, Spectacle, Ark)
+clientmachine=localhost
+clientmachinerule=1
+placement=5
+placementrule=3
+types=1
+wmclass=bitwarden|org.kde.kcalc|pavucontrol-qt|pavucontrol|qview|org.kde.spectacle|org.kde.ark
+wmclasscomplete=false
+wmclassmatch=3
+
+[64ac6b9a-9dde-4358-806d-49b22322b54b]
+Description=Steam Friends List & Popups (Floating)
+clientmachine=localhost
+clientmachinerule=1
+placement=5
+placementrule=3
+title=Friends List|Steam Settings|Special Offers|Chat|News
+titlematch=3
+types=1
+wmclass=steam
+wmclasscomplete=false
+wmclassmatch=1
+
+[0cb01e18-0b77-4f1f-80bf-96278a662e4b]
+Description=Game Launchers (Floating)
+clientmachine=localhost
+clientmachinerule=1
+placement=5
+placementrule=3
+types=1
+wmclass=org.prismlauncher.PrismLauncher|prismlauncher|heroic
+wmclasscomplete=false
+wmclassmatch=3
+
+[4d76dcf3-377e-475b-af83-6d368ff8ca1d]
+Description=Vesktop Discord to Secondary Monitor
+clientmachine=localhost
+clientmachinerule=1
+screen=1
+screenrule=3
+types=1
+wmclass=vesktop
+wmclasscomplete=false
+wmclassmatch=1
+
+[31adb802-930c-4d49-9a23-3a492b2d51e7]
+Description=Borderless Modern Editors (Zed, VSCodium)
+clientmachine=localhost
+clientmachinerule=1
+noborder=true
+noborderrule=2
+types=1
+wmclass=dev.zed.Zed|zed|codium|VSCodium
+wmclasscomplete=false
+wmclassmatch=3

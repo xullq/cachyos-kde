@@ -12,6 +12,7 @@ Optimoitu erityisesti:
 ## 📦 Valitut sovellukset ja komponentit
 
 | Kategoria | Valinta | Kuvaus / Rationale |
+| :--- | :--- | :--- |
 | **Ydin (Core)** | `plasma-desktop`, `kscreen`, `sddm`, `sddm-silent-theme`, `kwin-polonium`, `better-blur-dx`, `rounded-corners`, `bibata-cursor` | Wayland-ydin, moninäyttöohjaus, SilentSDDM, KWin-laatoitus, sumennus, pyöristetyt kulmat & Bibata-kursori |
 | **Pääte** | `ghostty` | Moderni, GPU-kiihdytetty natiivi Wayland-terminaali |
 | **Shell & CLI** | `zsh`, `starship`, `fzf`, `zoxide`, `eza`, `bat` | Nopea Zsh, Starship-prompt ja modernit Rust-työkalut |
@@ -33,6 +34,16 @@ Optimoitu erityisesti:
 - **Käyttöliittymän animaatiot:** Nopeutettu 2x, jotta työpöytä reagoi viiveettä.
 - **Fontit:** Asetettu Noto Sans ja Hermit Nerd Font oletuksiksi.
 - **Osoitinteema:** Asetettu Bibata-Modern-Classic oletukseksi (Plasma, GTK ja XCursor).
+- **Polonium-suodatukset:** Asetettu apuohjelmat automaattisesti laatoituksen ohituslistalle (`filterProcess`).
+
+---
+
+## 🪟 Ikkuna- ja laatoitussäännöt (`.config/kwinrulesrc`)
+KWin- ja Polonium-säännöt kahdelle näytölle ja laatoitukselle:
+- **Kelluvat apuohjelmat (Floating):** `Bitwarden`, `KCalc`, `Pavucontrol`, `qView`, `Spectacle` ja `Ark` avautuvat keskitettyinä kelluvina ikkunoina (eivät riko laattoja).
+- **Pelien pikkuruudut ja launcherit:** Steamin kaverilista, chat, asetukset ja Prism Launcher pysyvät aina kelluvina.
+- **Kakkosnäyttö (Dual Monitor):** Vesktop (Discord) avautuu automaattisesti kakkosnäytölle.
+- **Minimalistiset koodieditorit:** Zed ja VSCodium avautuvat ilman KDE:n otsikkopalkkia (`noborder = true`).
 
 ---
 

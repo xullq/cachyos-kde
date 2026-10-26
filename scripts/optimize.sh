@@ -39,6 +39,8 @@ if command -v kwriteconfig6 &>/dev/null; then
     echo " -> Aktivoidaan Polonium (KWin Tiling) & Rounded Corners..."
     kwriteconfig6 --file kwinrc --group Plugins --key poloniumEnabled true
     kwriteconfig6 --file kwinrc --group Plugins --key shapecornersEnabled true
+    # Ohitetaan apuohjelmat ja pikkudialogit Poloniumin automaattisesta laatoituksesta
+    kwriteconfig6 --file kwinrc --group Script-polonium --key filterProcess "kcalc,bitwarden,pavucontrol-qt,pavucontrol,qview,spectacle,ark,prismlauncher,heroic,steam"
 fi
 
 # 5. Konfiguroidaan osoitinteema (Bibata-Modern-Classic)
