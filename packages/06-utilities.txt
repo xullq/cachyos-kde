@@ -7,7 +7,7 @@ pavucontrol-qt
 
 # ark: Pakattujen tiedostojen hallinta (integroituu Dolphiniin)
 ark
-p7zip
+7zip
 unrar
 zip
 unzip
