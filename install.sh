@@ -10,7 +10,12 @@ echo "=========================================================="
 echo "  CachyOS Minimal KDE Plasma Setup (Dual Monitor)"
 echo "=========================================================="
 
-# 1. Tarkistetaan paketinhallinta (paru tai pacman)
+# 1. Varmistetaan että paru (AUR-apuri) on asennettu
+if ! command -v paru &>/dev/null && ! command -v yay &>/dev/null; then
+    echo ":: Paru puuttuu, asennetaan paru CachyOS-varastosta..."
+    sudo pacman -S --needed --noconfirm paru
+fi
+
 if command -v paru &>/dev/null; then
     AUR_HELPER="paru"
 elif command -v yay &>/dev/null; then
